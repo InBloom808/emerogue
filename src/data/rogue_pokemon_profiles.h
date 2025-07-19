@@ -114972,7 +114972,6 @@ static struct LevelUpMove const sLevelUpMoves_SPECIES_INFERNAPE[] =
 	{ .move=MOVE_ACROBATICS, .level=52 },
 	{ .move=MOVE_CALM_MIND, .level=58 },
 	{ .move=MOVE_RAGING_FURY, .level=65 },
-	{ .move=MOVE_PYRO_BALL, .level=72 },
 	{ .move=MOVE_NONE, .level=0 },
 };
 
