@@ -706,6 +706,26 @@
                     "ABILITY_POISON_PUPPETEER",
                     "ABILITY_TECHNICIAN"
                 ]
+            },
+            {
+                "#if": "defined(ROGUE_EXPANSION)",
+                "species": "SPECIES_CHIMCHAR",
+                "trainer": "Exotic",
+                "pokeball": "ITEM_ROGUE_BALL",
+                "held_item": "ITEM_NONE",
+                "is_default_spawn": true,
+                "moves":
+                [
+                    "MOVE_HEADLONG_RUSH",
+                    "MOVE_SUPERPOWER",
+                    "MOVE_OVERHEAT",
+                    "MOVE_ENDURE"
+                ],
+                "abilities":
+                [
+                    "ABILITY_CONTRARY",
+                    "ABILITY_DROUGHT"
+                ]
             }
         ]
     }
