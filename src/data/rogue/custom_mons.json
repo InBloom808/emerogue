@@ -717,14 +717,33 @@
                 "moves":
                 [
                     "MOVE_HEADLONG_RUSH",
-                    "MOVE_SUPERPOWER",
+                    "MOVE_SEARING_SHOT",
                     "MOVE_OVERHEAT",
-                    "MOVE_ENDURE"
+                    "MOVE_GROWTH"
                 ],
                 "abilities":
                 [
                     "ABILITY_CONTRARY",
                     "ABILITY_DROUGHT"
+                ]
+            },
+            {
+                "#if": "defined(ROGUE_EXPANSION)",
+                "species": "SPECIES_LEDYBA",
+                "trainer": "Exotic",
+                "pokeball": "ITEM_ROGUE_BALL",
+                "held_item": "ITEM_NONE",
+                "is_default_spawn": true,
+                "moves":
+                [
+                    "MOVE_DRAIN_PUNCH",
+                    "MOVE_ICE_PUNCH",
+                    "MOVE_VICTORY_DANCE",
+                    "MOVE_LEECH_LIFE"
+                ],
+                "abilities":
+                [
+                    "ABILITY_HUGE_POWER"
                 ]
             }
         ]
