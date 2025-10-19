@@ -745,6 +745,25 @@
                 [
                     "ABILITY_HUGE_POWER"
                 ]
+            },
+            {
+                "#if": "defined(ROGUE_EXPANSION)",
+                "species": "SPECIES_NUMEL",
+                "trainer": "Exotic",
+                "pokeball": "ITEM_ROGUE_BALL",
+                "held_item": "ITEM_NONE",
+                "is_default_spawn": true,
+                "moves":
+                [
+                    "MOVE_GROWTH",
+                    "MOVE_WEATHER_BALL",
+                    "MOVE_PRECIPICE_BLADES",
+                    "MOVE_MORNING_SUN"
+                ],
+                "abilities":
+                [
+                    "ABILITY_DESOLATE_LAND"
+                ]
             }
         ]
     }
